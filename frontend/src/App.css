@@ -1,0 +1,75 @@
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: var(--text);
+}
+
+.card {
+  margin: 40px auto 0;
+  padding: 28px;
+  text-align: left;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-bg);
+  box-shadow: var(--shadow);
+}
+
+.card h2 {
+  margin: 0 0 16px;
+}
+
+.status {
+  margin: 0 0 20px;
+}
+
+.status.ok {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.status.ok li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: var(--code-bg);
+}
+
+.status.error {
+  color: #d63a3a;
+}
+
+.status.pending {
+  color: var(--text);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--accent);
+}
+
+button:hover {
+  background: var(--accent-border);
+  color: #fff;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 15px;
+  color: var(--text);
+}
