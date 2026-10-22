@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RSVP
 
 Monorepo for the RSVP app.
@@ -141,3 +142,6 @@ The whole app lives in `C:\laragon\www\RSVP`, so Laragon's auto virtual host
 
 To serve the built frontend from Laravel, run `npm run build` and copy
 `frontend/dist` into `backend/public`.
+=======
+# RSVP
+>>>>>>> f4d26b6b1fff83becccb641b7b5895f2760737b5
